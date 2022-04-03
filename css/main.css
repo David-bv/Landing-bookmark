@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+    font-weight: 400;
+    Font-size: 18px;
+}
+
+.colorP {
+    color: hsl(229, 8%, 60%);
+    margin: auto;
+    text-align: center;
+    min-width: 351px;
+    max-width: 500px;
+}
+
+.btn-primary {
+    background-color: hsl(231, 69%, 60%);
+}
+
+.marginBot {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+/*-- Articulo principal -- */
+.secArtic {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+#hero {
+    width: 100%;
+    max-width: 650px;
+}
+
+#tab-1 {
+    width: 87%;
+    max-width: 650px;
+    min-width: 280px;
+    display: flex;
+    margin: auto;
+}
+
+/* --- Menu ---- */
+.navbar {
+    background-color: transparent;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-toggler {
+    color: rgb(10, 8, 8);
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+    margin-right: 22%;
+} 
+
+.navBton {
+    background-color: hsl(0, 94%, 66%);
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.nav-item :hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.navBton :hover {
+    background-color: rgb(238, 229, 229);
+    color: hsl(0, 94%, 66%);
+}
+
+#brandImg {
+    margin-left: 25%;
+}
+
+/* --Features-- */
+.featP1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.featp2 {
+    width: 80%;
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.featp2 span {
+    height: auto;
+    font-size: 18px;
+    line-height: 45px;
+    color: hsl(229, 8%, 60%);
+    margin: 5px 0px;
+}
+
+.featp2 :hover {
+    color: black;
+    font-size: 18.5px;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* -- Card -- */
+.cardSection {
+    height: auto;
+}
+
+.cardImg {
+    width: 30%;
+    height: 90px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardBtn {
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    width: 90%;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+.card {
+    height: 390px;
+    width: 19rem;
+    border: white;
+}
+
+.card h5 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cardF {
+    margin-top: 60px;
+    box-shadow: 0px 8px rgb(245, 243, 243);
+}
+
+.cardCr {
+    box-shadow: 0px 6px rgb(245, 243, 243);
+}
+
+.cardO{
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+
+.cardO .card-body{
+    box-shadow: 0px 6px rgb(245, 243, 243);
+}
+
+.colorCard {
+    color: hsl(229, 8%, 60%);
+}
+
+/*--- Acordeon ---*/
+.acordeonDiv {
+    width: 35vw ;
+    min-width: 370px;
+    max-width: 620px;
+    margin-bottom: 100px;
+}
+
+.accordion-header {
+    background-color: rgb(237, 250, 250);
+}
+
+.accordion-header  :hover {
+    color: hsl(0, 94%, 66%);
+    background-color: white;
+}
+
+.accordion-header ::after {
+   background-image: url(../images/icon-arrow.svg);
+}
+
+.accordion-item {
+    border-bottom: 1px solid lightgrey;
+}
+
+/* ---  Footer  --- */ 
+
+.formDiv {
+    margin-top: 50px;
+}
+
+.navFooter {
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+    height: 150px;
+}
+
+.navElement :hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.secFooter {
+    background-color: hsl(231, 69%, 60%); 
+    height: 420px;
+    text-align: center;
+    color: white;
+}
+
+.divInput {
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+.divButton {
+    width: 150px;
+}
+
+#email {
+    margin-top: 15px;
+    text-align: center;  
+}
+
+.btnForm {
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    margin-top: 16px;
+    font-size: 15px;  
+    height: 38px; 
+}  
+
+.btnForm :hover {
+    color: tomato;
+}
+
+.footerH6 {
+    padding-top: 80px;
+}
+
+.footerH2 {
+    padding-top: 50px;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.pMsj {
+    color: red;
+    display: flex;
+    margin: 0 auto;
+}
+
+.msjAlert {
+    width: 350px;
+    height: 40px;
+    line-height: 4px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#sendMail{
+    display: none;
+}
+
+@media (max-width: 376px){
+    .divButton {
+        width: 352px;
+    }
+
+    .buttonMobile {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .footerH2 {
+        padding-top: 10px;
+        width: 350px;
+    }
+
+    .footerH6 {
+    padding-top: 60px;
+    }
+
+    .formDiv {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .secFooter {
+        height: 400px;
+    }
+
+    .btnForm {
+        height: 43px; 
+    }  
+
+    #email {
+       height: 43px;  
+    }
+
+    .pMsj {
+        color: red;
+        line-height: 10px;
+        height: 5px;
+        display: flex;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .msjAlert  {
+        width: 324px;
+    }
+}
